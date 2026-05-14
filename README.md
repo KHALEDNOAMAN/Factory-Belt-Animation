@@ -98,7 +98,3 @@ Huge thanks for the clear and creative walkthrough — a fantastic resource for 
 ## 📄 License
 
 This project is for personal/educational use. Feel free to use it as a learning reference.
-
----
-
-*Made with ❤️ in Blender*
