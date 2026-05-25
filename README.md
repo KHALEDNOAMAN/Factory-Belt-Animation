@@ -1,100 +1,73 @@
-# 🏭 Factory Belt Animation — Blender Project
+# ðŸ­ Factory Belt Animation â€” Blender Physics Simulation
 
-A stylized **factory conveyor belt animation** built in **Blender 4.1**, featuring animated objects, custom shaders, and a playful low-poly art style.
+![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
+![Animation](https://img.shields.io/badge/Animation-FF6F00?style=for-the-badge&logoColor=white)
+![Physics](https://img.shields.io/badge/Physics_Sim-9C27B0?style=for-the-badge&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
----
-
-## 📸 Preview
-
-<!-- Replace with your actual render or animation export -->
-![Factory Animation Preview](preview.png)
+> **A physics-based factory conveyor belt animation created in Blender â€” featuring rigid body simulation, mechanical motion, and cinematic camera work.**
 
 ---
 
-## 🛠️ Project Details
+## ðŸŽ¯ Overview
 
-| Property | Details |
-|----------|---------|
-| **Software** | Blender 4.1 |
-| **File** | `untitled.blend` |
-| **Type** | 3D Animation |
-| **Frame Range** | 1 – 120 |
-| **Render Engine** | Cycles / EEVEE |
+This project is a 3D animated simulation of a factory conveyor belt system built entirely in Blender. It demonstrates physics-based animation, mechanical rigging, and motion graphics techniques to create a realistic industrial production line scene.
 
----
+## âœ¨ Features
 
-## 🎬 Scene Overview
+- âš™ï¸ **Physics Simulation** â€” Rigid body dynamics for realistic object movement
+- ðŸ”„ **Conveyor Belt Mechanics** â€” Animated belt with proper loop motion
+- ðŸ“¦ **Object Interaction** â€” Items moving along the belt with collision physics
+- ðŸŽ¥ **Cinematic Camera** â€” Smooth camera tracking and transitions
+- ðŸ’¡ **Industrial Lighting** â€” Atmospheric factory environment lighting
+- ðŸŽ¬ **Full Animation** â€” Complete animated sequence ready for rendering
 
-A stylized factory scene where objects travel along a conveyor belt. The scene includes:
+## ðŸ› ï¸ Tools Used
 
-- 🔩 **Conveyor Belt** — Dark segmented belt moving objects through the scene
-- 📦 **Cubes** — Multiple colored cubes (blue & gold) being processed on the belt
-- ⚪ **Character** — A white blob/snowman figure watching the factory
-- 💡 **Lighting** — Area light setup with a warm green studio floor
-- 🔧 **Props** — Bolts and structural plane elements framing the scene
+| Tool | Purpose |
+|------|---------|
+| Blender | 3D modeling, animation, physics simulation |
+| Rigid Body Physics | Object dynamics and collisions |
+| Keyframe Animation | Belt and mechanical part motion |
+| Cycles/Eevee | Final rendering |
 
----
+## ðŸš€ Getting Started
 
-## 🎨 Materials
+### Prerequisites
+- [Blender](https://www.blender.org/download/) (version 3.0 or later)
 
-| Material | Description |
-|----------|-------------|
-| **Chameleon Car Paint** | Metallic iridescent shader using Mix + Add Shader nodes |
-| **Belt material** | Dark segmented conveyor surface |
-| **Cube colors** | Solid blue and golden/orange cube materials |
+### How to Open
+```bash
+# Clone the repository
+git clone https://github.com/KHALEDNOAMAN/Factory-Belt-Animation.git
 
-### Shader Highlight — Chameleon Car Paint
-Built using a node setup of:
-- **Mix Shader** → **Divide** factor
-- **Add Shader** for layered reflections
-- **Mix Shader** for final surface blend
-
----
-
-## 📁 File Structure
-
-```
-📦 blender-factory-animation/
- ┣ 📄 untitled.blend      # Main Blender project file
- ┣ 📄 README.md           # This file
- ┗ 📄 .gitignore          # Excludes temp Blender files
+# Open in Blender
+blender Factory-Belt-Animation/*.blend
 ```
 
----
+### Playback & Rendering
+1. Open the `.blend` file
+2. Press **Space** to play the animation in the viewport
+3. Go to **Output Properties** to set render output format
+4. Press **Ctrl + F12** to render the full animation
 
-## 🚀 Getting Started
+## ðŸ“ Project Structure
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   ```
+```
+Factory-Belt-Animation/
+â”œâ”€â”€ *.blend          # Main Blender project file
+â”œâ”€â”€ textures/        # Material textures
+â”œâ”€â”€ renders/         # Rendered frames/video
+â””â”€â”€ README.md
+```
 
-2. **Open in Blender:**
-   - Launch Blender 4.1 or later
-   - Go to `File → Open` and select `untitled.blend`
+## ðŸ“„ License
 
-3. **Play the animation:**
-   - Press `Space` to play, or `F12` to render a single frame
-   - Go to `Render → Render Animation` to export the full sequence
+This project is licensed under the MIT License.
 
----
+## ðŸ‘¤ Author
 
-## ⚙️ Requirements
+**Khaled Noaman** â€” Computer Engineering Student & 3D Artist
 
-- [Blender 4.1+](https://www.blender.org/download/) (free & open source)
-
----
-
-## 🙏 Credits
-
-This project was made following this amazing tutorial:
-
-> 📺 **[Blender Factory Animation Tutorial](https://youtu.be/OhzcCsR_EO0?si=Dym--hPgCsR_EO0)** by **Polygon Runway**
-
-Huge thanks for the clear and creative walkthrough — a fantastic resource for learning animation and stylized 3D in Blender!
-
----
-
-## 📄 License
-
-This project is for personal/educational use. Feel free to use it as a learning reference.
+- [GitHub](https://github.com/KhaledNoaman)
+- [LinkedIn](https://www.linkedin.com/in/khalednoaman1/)
